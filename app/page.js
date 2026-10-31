@@ -4,6 +4,8 @@
 import { useState } from "react";
 import { useEffect } from "react";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export default function GraduationPage() {
   const [showWish, setShowWish] = useState(false);
   const [confetti, setConfetti] = useState([]);
@@ -81,7 +83,7 @@ export default function GraduationPage() {
 
           <div className="photo-frame">
             <img
-              src="/anh-tot-nghiep-2.jpg"
+              src={`${basePath}/anh-tot-nghiep-2.jpg`}
               alt="Ảnh chân dung tốt nghiệp"
             />
             <p className="photo-caption">
@@ -91,7 +93,7 @@ export default function GraduationPage() {
 
           <div className="photo-frame">
             <img
-              src="/anh-tot-nghiep-1.jpg"
+              src={`${basePath}/anh-tot-nghiep-1.jpg`}
               alt="Ảnh nhận bằng tốt nghiệp"
             />
             <p className="photo-caption">
