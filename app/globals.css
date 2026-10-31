@@ -312,7 +312,7 @@ button {
   }
 }
 
-@media (min-width: 381px) and (max-width: 600px) {
+@media (min-width: 381px) and (max-width: 800px) {
   .graduation-card {
     padding: 28px 22px;
   }
