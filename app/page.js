@@ -83,7 +83,7 @@ export default function GraduationPage() {
 
           <div className="photo-frame">
             <img
-              src={`${basePath}/anh-tot-nghiep-2.jpg`}
+              src={`${basePath}/anh-tot-nghiep-2.jpg?v=2`}
               alt="Ảnh chân dung tốt nghiệp"
             />
             <p className="photo-caption">
