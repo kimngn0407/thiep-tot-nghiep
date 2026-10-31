@@ -124,7 +124,7 @@ export default function GraduationPage() {
           </div>
           <a
             className="map-button"
-            href="https://www.google.com/maps/search/?api=1&query=S%C3%A2n+E4+%C4%90%E1%BA%A1i+h%E1%BB%8Dc+HUTECH+khu+E+Qu%E1%BA%ADn+9"
+            href="https://www.google.com/maps/search/?api=1&query=10%2F80c+Song+H%C3%A0nh+Xa+L%E1%BB%99+H%C3%A0+N%E1%BB%99i%2C+T%C4%83ng+Nh%C6%A1n+Ph%C3%BA%2C+H%E1%BB%93+Ch%C3%AD+Minh%2C+Vietnam"
             target="_blank"
             rel="noreferrer"
           >
